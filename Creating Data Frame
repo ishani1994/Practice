@@ -1,0 +1,5 @@
+name<- c("Ishani", "Srabasti", "Shweta", "Deepti")
+age<- c(22,22,23,21)
+school<- c("KV", "MHS","LMG","QMS")
+input_df<- data.frame(name,age,school)
+View(input_df)
