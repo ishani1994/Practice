@@ -1,0 +1,16 @@
+name_var <- c("Swastik", "Shaurya","Gadia", "JP")
+age_var <- c(26,26,26,25)
+occ_var <- c("Student", "Working", "Working", "Student")
+comp_marks <- c(98,78,78,99)
+math_mark <- c(45,65,76,34)
+student_df<- data.frame(name_var,age_var,occ_var,comp_marks,math_mark)
+
+for(i in 1:nrow(student_df))
+{
+  if(student_df$comp_marks[i]==78 & student_df$math_mark[i]==76)
+  {
+  student_df$age_var[i]=45
+  }
+  
+}
+View(student_df)
